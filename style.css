@@ -18,8 +18,15 @@ body {
 
 .header {
     text-align: center;
-    padding: 60px 20px 45px;
-    background: #da870c;
+    padding: 200px 80px 220px;
+
+    background-image: url("images/TANDAU.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: rgb(143, 103, 16);
+
+    position: relative;
 }
 
 .logo {
@@ -34,7 +41,8 @@ body {
 .header p {
     margin: 0;
     font-size: 18px;
-    color: #000000;
+    color: rgb(143, 103, 16);
+    
 }
 
 
