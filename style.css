@@ -51,22 +51,19 @@ body {
 
     padding: 15px;
 
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(42, 41, 41, 0.95);
 
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #222222;
 
     overflow-x: auto;
 
     scroll-behavior: smooth;
 }
 
-.categories a {
-    flex-shrink: 0;
-}
 
 .categories a {
     text-decoration: none;
-    color: #c0bdbd;
+    color: #9c9b9b;
 
     background: #000000;
 
