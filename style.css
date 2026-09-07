@@ -328,3 +328,19 @@ section .dish {
         white-space: nowrap;
     }
 }
+
+@media (max-width: 600px) {
+
+    .header {
+        height: 230px;
+
+        padding: 0;
+
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-color: #f7f3ed;
+    }
+}
+
