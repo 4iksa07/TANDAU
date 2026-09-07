@@ -51,11 +51,17 @@ body {
 
     padding: 15px;
 
-    background: rgba(48, 48, 48, 0.95);
+    background: rgba(255, 255, 255, 0.95);
 
-    border-bottom: 1px solid #414141;
+    border-bottom: 1px solid #eee;
 
     overflow-x: auto;
+
+    scroll-behavior: smooth;
+}
+
+.categories a {
+    flex-shrink: 0;
 }
 
 .categories a {
@@ -287,5 +293,33 @@ section .dish {
 
     .dish strong {
         font-size: 22px;
+    }
+}
+
+/* Категории на телефоне */
+
+@media (max-width: 600px) {
+
+    .categories {
+        justify-content: flex-start;
+        padding: 12px;
+        gap: 10px;
+
+        overflow-x: auto;
+        scroll-behavior: smooth;
+
+        -webkit-overflow-scrolling: touch;
+
+        scrollbar-width: none;
+    }
+
+    .categories::-webkit-scrollbar {
+        display: none;
+    }
+
+    .categories a {
+        flex-shrink: 0;
+        padding: 10px 16px;
+        white-space: nowrap;
     }
 }
